@@ -18,7 +18,6 @@
 
 # 配置完毕之后并没有运行，需要先点击action，点击刷步数，点击 run workflow 即可运行
 
-# 最后，点击action，点击刷步数，点击 run workflow 即可运行
 
 
 
