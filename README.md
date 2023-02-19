@@ -1,7 +1,5 @@
 # 小米运动自动刷步数For Email
 
-# 配置完毕之后并没有运行，需要先点击action，点击刷步数，点击 run workflow 即可运行
-
 ## Github Actions 部署指南
 
 ### 一、Fork 此仓库
@@ -17,6 +15,8 @@
 | OPEN_GET_WEATHER|   开启根据地区天气情况降低步数**False**关闭,**True**开启|
 | AREA |   设置获取天气的地区（上面开启后必填）如：**北京**，当**OPEN_GET_WEATHER**为**False**时填写**NO**|
 | PAT （在登入状态下步骤3链接即可一键获取）|此处**PAT**需要申请，值为github token，需要repo和workflow权限,此项必填，避免git push的权限错误。<br><br>1、在 https://github.com 登录你的帐号，登录以后点击右上角你的头像的Settings<br><br>2、 点击 Developer settings 下的 Personal access tokens，直接进入这个链接(前提是你要先登陆你的帐号)：https://github.com/settings/tokens<br><br>3、点击 https://github.com/settings/tokens/new 这个超链接，就是创建你的token。<br><br>4、在Token description中随便填一个描述名称，下面的复选框是你这个token需要的权限，全部勾上就可以了。<br><br>5、生成的这个就是你的token了，可以直接复制使用。|<br>
+
+# 配置完毕之后并没有运行，需要先点击action，点击刷步数，点击 run workflow 即可运行
 
 # 最后，点击action，点击刷步数，点击 run workflow 即可运行
 
