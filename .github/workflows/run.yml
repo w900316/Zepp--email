@@ -5,11 +5,11 @@ on:
   #  branches: [ main ]
   #pull_request:
   #  branches: [ main ]
+  workflow_dispatch:
   schedule:
-    - cron: '2 4 * * *'
+    - cron: '2 4 * * *' # 修改你的定时配置
   watch:
     types: started
-  workflow_dispatch:
 
 jobs:
   build:
